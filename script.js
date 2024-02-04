@@ -15,7 +15,11 @@ function createGrid (numberSquares) {
     const divs = document.querySelectorAll('.gridDiv');
     divs.forEach((div) => {
     div.addEventListener('mouseover', () => {
-        div.style.backgroundColor = 'red';
+        // Colour block with random colour
+        let r = Math.floor(Math.random() * 100) + '%';
+        let g = Math.floor(Math.random() * 100) + '%';
+        let b = Math.floor(Math.random() * 100) + '%';
+        div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
     })
 })
 }
