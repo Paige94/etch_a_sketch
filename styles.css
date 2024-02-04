@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.gridDiv {
+    border: black solid;
+    width: 6%;
+}
