@@ -4,6 +4,11 @@ body {
 
 button {
     margin: 20px 0;
+    background-color: #cbf3f0;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: black solid 1px;
+    border-radius: 10px;
 }
 
 #container {
@@ -16,4 +21,5 @@ button {
 .gridDiv {
     border: black solid;
     box-sizing: border-box;
+    border-width: thin;
 }
